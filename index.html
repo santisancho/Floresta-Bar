@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floresta Bar - Cerveza Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section con Video -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="img/video hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">FLORESTA BAR</h1>
+            <p class="hero-subtitle">Cerveza artesanal, tragos clásicos y picoteo</p>
+            <a href="#menu" class="hero-cta">Ver Menú</a>
+        </div>
+    </section>
+
+    <!-- Menú Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            
+            <!-- Tabs -->
+            <div class="menu-tabs">
+                <button class="tab-button active" data-tab="bebidas">Bebidas</button>
+                <button class="tab-button" data-tab="comida">Comida</button>
+            </div>
+
+            <!-- Tab Content: Bebidas -->
+            <div class="tab-content active" id="bebidas">
+                
+                <!-- Traguitos -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Traguitos</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Vermut arrabal</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Amargo obrero</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Cynar Julep</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Carpano Rosso</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Campari Orange</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Campari tonic</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Gancia</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Fernet branca</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Fernet buhero</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Caipirosca</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Vodka</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Vodka saborizado</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Birra Artesanal -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Birra Artesanal</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Honey</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">American Amber Ale</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Ipa</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Porter</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-divider">
+                            <span class="divider-text">Cerveza 1 Litro</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Quilmes</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Heineken</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-divider">
+                            <span class="divider-text">Latas</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Brahama</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Isenbeck</span>
+                            <span class="item-price">$2.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Quilmes</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas sin Alcohol -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Bebidas sin Alcohol 500ml</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Coca cola</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Coca cola sin azucar</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Sprite</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Fanta</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Agua saborizada</span>
+                            <span class="item-price">$2.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Agua sin gas</span>
+                            <span class="item-price">$1.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Limonada</span>
+                            <span class="item-price">$3.000</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Tab Content: Comida -->
+            <div class="tab-content" id="comida">
+                
+                <!-- Focaccias -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Focaccias</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Jamón crudo tybo y rúcula</span>
+                            <span class="item-price">$11.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Salame y Tybo</span>
+                            <span class="item-price">$11.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Jamón y tybo</span>
+                            <span class="item-price">$11.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mortadela pesto y tybo</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Verduras salteadas y tybo</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Papas -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Papas</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Cheddar panceta y verdeo</span>
+                            <span class="item-price">$4.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Cheddar y verdeo</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Roquefort</span>
+                            <span class="item-price">$4.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Papas clásicas</span>
+                            <span class="item-price">$2.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizzas Napolitanas -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Pizzas Napolitanas</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item">
+                            <span class="item-name">Muzzarela</span>
+                            <span class="item-price">$10.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Especial</span>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Jamón crudo, rúcula y muzzarella</span>
+                            <span class="item-price">$16.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Napolitana</span>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Cebolla caramelizada</span>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tablas -->
+                <div class="menu-category">
+                    <button class="category-header">
+                        <span class="category-title">Tablas</span>
+                        <span class="category-icon">+</span>
+                    </button>
+                    <div class="category-items">
+                        <div class="menu-item tabla">
+                            <div class="item-name">
+                                <strong>Tabla caliente</strong>
+                                <small>2 o 4 personas</small>
+                                <small>Supremas, aros de cebolla, papas cheddar y aceitunas</small>
+                            </div>
+                            <div class="item-prices">
+                                <span>$24.000 / $40.000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item tabla">
+                            <div class="item-name">
+                                <strong>Tabla floresta</strong>
+                                <small>2 o 4 personas</small>
+                                <small>Jamón crudo, jamón cocido, mortadela, salame, queso holanda, queso azul y aceitunas</small>
+                            </div>
+                            <div class="item-prices">
+                                <span>$24.000 / $40.000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item tabla">
+                            <div class="item-name">
+                                <strong>Tabla campestre</strong>
+                                <small>2 o 4 personas</small>
+                                <small>Salame, mortadela, jamón cocido tybo y aceitunas</small>
+                            </div>
+                            <div class="item-prices">
+                                <span>$12.000 / $20.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Sección de experiencia rediseñada con videos en carrusel de fondo -->
+    <!-- Experiencia Section -->
+    <section class="experience-section">
+        <!-- Carrusel de videos de fondo -->
+        <div class="video-background">
+            <!-- VIDEO 1: Renombrar tu video como video-trago.mp4 y pegar en carpeta raíz -->
+            <video class="bg-video active" autoplay muted loop playsinline>
+                <source src="img/armando trago.mp4" type="video/mp4">
+            </video>
+            <!-- VIDEO 2: Renombrar tu video como video-comida.mp4 y pegar en carpeta raíz -->
+            <video class="bg-video" muted loop playsinline>
+                <source src="img/comida.mp4" type="video/mp4">
+            </video>
+            <!-- VIDEO 3: Renombrar tu video como video-chill.mp4 y pegar en carpeta raíz -->
+            <video class="bg-video" muted loop playsinline>
+                <source src="img/dj.mp4" type="video/mp4">
+            </video>
+            <!-- VIDEO 4: Renombrar tu video como video-dj.mp4 y pegar en carpeta raíz -->
+            <video class="bg-video" muted loop playsinline>
+                <source src="img/haciendo birra.mp4" type="video/mp4">
+            </video>
+            <!-- VIDEO 5: Renombrar tu video como video-cerveza.mp4 y pegar en carpeta raíz -->
+            <video class="bg-video" muted loop playsinline>
+                <source src="img/hector sector chill.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <!-- Contenido sobre el video -->
+        <div class="experience-content">
+            <h2 class="experience-title">LA EXPERIENCIA FLORESTA</h2>
+            <p class="experience-subtitle">Donde cada momento se convierte en un recuerdo inolvidable</p>
+            
+            <!-- Indicadores de video -->
+            <div class="video-indicators">
+                <span class="video-dot active" data-video="0"></span>
+                <span class="video-dot" data-video="1"></span>
+                <span class="video-dot" data-video="2"></span>
+                <span class="video-dot" data-video="3"></span>
+                <span class="video-dot" data-video="4"></span>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Floresta Bar. Todos los derechos reservados.</p>
+        <p>📍 Pacifico Otero y San Martín, Zavalla</p>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
