@@ -550,34 +550,52 @@ body {
     transform: scale(1.2);
 }
 
+/* Footer */
 .footer {
-    background: #2d5016;
+    background: #111;
     color: #eee;
-    padding: 40px 0;
-    text-align: center;
+    padding: 40px 20px;
 }
 
-.footer-content {
-    max-width: 900px;
-    margin: 0 auto;
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .footer-info h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 10px;
-    letter-spacing: 1px;
+    color: #d4a574; /* mismo color que tu paleta */
 }
 
 .footer-info p {
-    margin: 4px 0;
+    margin-bottom: 6px;
     font-size: 0.95rem;
 }
 
-.footer-copy {
-    margin-top: 20px;
-    font-size: 0.85rem;
-    opacity: 0.7;
+/* Mapita */
+.footer-map {
+    width: 260px;
+    min-width: 200px;
 }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-map {
+        width: 100%;
+    }
+}
+
 
 
 /* Responsive */
